@@ -1,6 +1,6 @@
-# ND035-P02-VehiclesAPI-Project
+SuperDuperDrive Udacity nano degree project # 1
 
-Project repository for JavaND Project 2, where students implement a Vehicles API using Java and Spring Boot that can communicate with separate location and pricing services.
+Vehicles API using Java and Spring Boot that can communicate with separate location and pricing services.
 
 ## Instructions
 
