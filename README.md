@@ -1,4 +1,4 @@
-SuperDuperDrive Udacity nano degree project # 1
+Udacity nano degree project # 2
 
 Vehicles API using Java and Spring Boot that can communicate with separate location and pricing services.
 
