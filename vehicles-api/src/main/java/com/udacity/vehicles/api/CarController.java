@@ -32,9 +32,9 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @ApiResponses(value = {
-        @ApiResponse(code=400, message = "This is a bad request, please follow the API documentation for the proper request format."),
-        @ApiResponse(code=401, message = "Due to security constraints, your access request cannot be authorized. "),
-        @ApiResponse(code=500, message = "The server is down.")
+        @ApiResponse(code = 400, message = "This is a bad request, please follow the API documentation for the proper request format."),
+        @ApiResponse(code = 401, message = "Due to security constraints, your access request cannot be authorized. "),
+        @ApiResponse(code = 500, message = "The server is down.")
 })
 @RequestMapping("/cars")
 class CarController {

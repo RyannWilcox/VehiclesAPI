@@ -38,10 +38,10 @@ public class CarService {
   public List<Car> list() {
     long id;
     Location loc;
-    List <Car> cars = repository.findAll();
+    List<Car> cars = repository.findAll();
 
     // Loop through the list to get and set the price and location
-    for(Car aCar : cars){
+    for (Car aCar : cars) {
       id = aCar.getId();
       loc = aCar.getLocation();
       aCar.setPrice(priceClient.getPrice(id));
